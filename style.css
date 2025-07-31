@@ -1,0 +1,148 @@
+
+.bitcount-prop-single-custom {
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+title {
+    font-size: 2em;
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+}
+.name {
+    font-family: 'Bitcount Prop Single', sans-serif;
+    font-size: 2.5em;
+    color: #dfdfdf;
+    text-align: left;
+    margin-top: 10px;
+    z-index: 1;
+    position: relative;
+}
+.tagline {
+    font-family: 'Bitcount Prop Single', sans-serif;
+    font-size: 0.7;
+    color: #dbd8d8;
+    text-align: left;
+    margin-top: 5px;
+    font-style: italic;
+}
+header, nav {
+    background-color: #003459;
+    width: 100%;
+    margin: 0;
+    padding: 10px 10px;
+    top: 0;
+    left: 0;
+    position:fixed
+
+}
+header {
+    color: rgb(170, 170, 170);
+    text-align: center;
+    
+}
+body{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00171F;
+    border-radius: 8px;
+    color: #e3e1e1;
+}
+nav {
+    font-family: 'Bitcount Prop Single', sans-serif;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    background-color: 003459; /* Add this line */
+    
+}
+nav a {
+    color: rgb(221, 221, 224);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    margin-top: 100px; /* Adjust this value to match your header/nav height */
+    font-family: 'Bitcount Prop Single', sans-serif;
+
+}
+
+.collapsible {
+    background-color: #003459;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Bitcount Prop Single', sans-serif;
+
+}
+
+.active, .collapsible:hover {
+    background-color: #007EA7;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #908c8c;
+  }
+
+  .fa-html5 {
+    font-size: 50px;
+}
+.fa-css3-alt {
+    font-size: 50px;
+   
+}
+.fa-js {
+    font-size: 50px;
+   
+    }
+
+.fa-github {
+    font-size: 50px;    
+    }
+
+.fa-git-alt {
+    font-size: 50px;
+    }
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #00171F;
+    box-shadow: #333333 0px 0px 10px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+
+}
+/* --- a/file:///c%3A/Adel%20Projects/Portfolio/Adel%20Portfolio/style.css */
