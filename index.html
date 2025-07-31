@@ -6,8 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css" />
-    <script src="scripts/jscode.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -15,35 +14,61 @@
         <div class="name">A.Varga</div>
         <div class="tagline">Web Developer</div>
         <nav class="navbar">
-           <a href="#">About Me</a>
-           <a href="#">Projects</a>
-           <a href="#">Skills</a>
-           <a href="#">Contact</a>
+           <a href="#about-me">About Me</a>
+           <a href="#projects">Projects</a>
+           <a href="#skills">Skills</a>
+           <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <main class="main">
-        <h1>About Me</h1>
-         <p1 class ="hi">Hi!</p1>
-            <p2>My name is A. Varga, and I am a web developer with a passion for creating dynamic and responsive websites.</p2>
-
-         <h1>Projects</h1>
+        <div id="about-me"></div>
+        <h1>About Me</h1> 
+         <div id="wave-container">
+            <h3 class ="hi">Hi! <span id="wave" class="wave-emoji">👋</span></h3>
+  </div>
+            <h4>My name is A. Varga, and I am a front-end web developer </h4>
+             <p3> I'm a front-end web developer with a passion for crafting clean, responsive, and user-friendly interfaces. I specialize in turning design concepts into interactive digital experiences using modern web technologies like HTML, CSS, and JavaScript.</p3>
+                <br>
+                  <p4>With a strong focus on performance, accessibility, and cross-browser compatibility, I aim to build websites that not only look great but also deliver a smooth and engaging user experience across all devices.
+                  Feel free to explore my projects below — each one is a reflection of my growth, creativity, and attention to detail. </p4>
+        <div id="projects"> </div>
+        <h1>Projects</h1>
            <button class="collapsible" i class="fa-solid fa-arrow-right"></i>> Project 1 </button>
-              <div class="content">
-                <p>Project 1 description goes here. It includes details about the technologies used, the challenges faced, and the solutions implemented.</p>
+            <div class="content">
+                <p>In this project I designed a cafe's website using HTML, CSS an Javascript</p>
+            <div class ="img">
+                <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (9).png" alt="Project 3 Screenshot" />
+                <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (10).png" alt="Project 3 Screenshot" />
+                <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (11).png" alt="Project 3 Screenshot" />
+                <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (12).png" alt="Project 3 Screenshot" />
+                <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (13).png" alt="Project 3 Screenshot" />
+                <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (14).png" alt="Project 3 Screenshot" />
+                </div>
                 </div>
             <button class="collapsible" i class="fa-solid fa-arrow-right"></i>> Project 2 </button>
-                <div class="content">
-                <p>Project 2 description goes here. It includes details about the technologies used, the challenges faced, and the solutions implemented.</p>
-                </div>
+                
+            <div class="content">
+                <p>In this project I had to use my knowlegde of HTML form to collect input users and put a spin on a classic story!</p>
+            <div class ="img">
 
+               <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (2).png" alt="Project 1 Screenshot" /> 
+               <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (3).png" />
+               <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (6).png" />
+               <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (7).png" />
+               <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (8).png" />
+            </div>
+            </div>
             <button class="collapsible" i class="fa-solid fa-arrow-right"></i>> Project 3 </button>
-                <div class="content">
-                <p>Project 3 description goes here. It includes details about the technologies used,
-                the challenges faced, and the solutions implemented.</p>
+               <div class="content">
+                    <p>In this project, I created a board of to-do items organized into columns. I applied my knowlegde of how to lay out the structure of a grid’s rows and columns and place items within that grid using CSS.</p>
+                <div class ="img">
+
+                    <img src="C:\Users\Tunde\Pictures\Screenshots\Képernyőfelvétel (15).png" alt="Project 2 Screenshot" />
+                </div>
                 </div>
 
-        <h1>Skills</h1>
+        <div id="skills"><h1>Skills</h1></div>
         <p>Here are some of the technologies I work with:</p>
 
         <i class="fa-brands fa-html5"></i>
@@ -53,9 +78,10 @@
         <i class="fa-brands fa-git-alt"></i>
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD+ElEQVR4nO2ZWagOYRjHx75lJzq2OpZD9n1NIWuWcKIOFyJKEVK44ka4EyIXZM0SEkr2C3tKCSFLyL7v+/LTo3eO93vOOzNkvjnfqfO/+vrmeWf+/3mf9R3PK0YxiiaAOsAa4AHwENgAtPWKAoCWwD3cOAz08DIVQDfgOdE4CQwDSniZAmA48NEi+VqR/uEQcg4YCZQsbPITgW8WsUfi84psDrAO+OoQcqnQXAuYB/y0yNwAss21fFj2DYEVarcEn4BOSRIvASxVJM5LBrJs8hGQqRYDb/5YcSAp8mWAzaTiKFBF2eUj5F7iWj7eJUG+ErCfVOwGyjts8xFxTzvAowMaqAVMAeYCvf6BfE3gLKlYBZQKsI9fADBC+Z1gJ1A1Yp0E3xW1bkHEmngFANMD8rGfPdr/ZXX9DkyNINUkVgHAOAfhjY5UNlmt6w68sGw+A7kRhEbpQhaHACkWdimvaf7PdbjURhOsQ4AP1v9i1zciOy1VdSE2AS8to2x1rSlwgVTcVFXzMdAhhEQD4DQB8GIQIG/dx2WgvrpeAVgb8Pxb4tMhBAYBzxypNVYBg5XhXaCFw26CchvBJqCcw7YUsFDdV3ZttqnU8QkwhiNNoPp46WqiRJjZJd0mNLZsagMHlc19oKdlE68AY9xHBe17CVaHXWVgK6mQdaOB3mbasnEMqKvuEb8As6Aj8ERt+/gA22nAF8v2p6kDPuT3fNeDSZcAsyjb1AKb2JwQwRLIGhK4A0OekVYBjU2q1FjmGvWk1QB2OQQMSFwA0Bl4SjCkkJVxrJPMMkPVB9m5JYm5ENAPeKuCWBq8HUrEPqBiwD1cQXzUHmbSIgDIU29PepzuVk5frUhJ61wr4F6SRg8p+3tpS6PAUGV4G2jmcJEjipT0UPUC7ukXMrv3kRc0M/ZCZgqRj4tAlrpe0ZwauHAHaB5CYLDjPGhn3ALE14OauRwjysZ1lf8l43SJGHj0tBarALvbPOP7NjBWBbVgvdmR/jJoW/+/j8j7ZU0aLoA4BIxRviqFaYt6jpzVTFLrOqmUKz6eF0GowIzx3wKM4VTVBmiXcZ4gS7CboPchD5wZQapp7AKsbPRKkd+uz3Qc67IccbI47ICWdAgwC6qbvn8W0DVywZ911YDjSoQMQaUTFfA/kMHGUbX3ykRXJAQI5I2bLzA2TsjOev8oAGhnmb32koKptIscVTvrbwQAjYCVakLck5gAi8gM5QJStXOCBIR8J5Ba1CpxAVaTaFdtqRvSsttoA2wLOBk8BbQuFPKWiIGqar9TJAscdpk5up+XKXBUbUK+Vv5u4zMOxsclDjR+mPTrPEDOKAA1gOXAVeCaGZQKHKIVoxheevELo4VN9oyydHkAAAAASUVORK5CYII=" alt="visual-studio-code-2019">
         
-        <h3>Contact</h3>
+        <div id="contact"><h3>Contact</h3></div>
           <p>Please feel free to contact me via <a class="email" href="mailto:vargaadel.m@gmail.com">email</a> or by  <a class="phone" href="tel:+447922629133">phone</a> for further questions</p>
     </main>
+    <script src="jscode.js"></script>
 </body>
 <footer class="footer">
     <p>© 2025 A. Varga. All rights reserved.</p>

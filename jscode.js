@@ -12,3 +12,14 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const waveEmoji = document.getElementById('wave');
+
+  // You can use JavaScript to start/stop the wave animation if needed
+  // For example, this could be used to trigger the animation after a delay:
+
+  setTimeout(() => {
+    waveEmoji.style.animationPlayState = 'running';
+  }, 500);  // Delay the start of the animation by 500ms
+});
